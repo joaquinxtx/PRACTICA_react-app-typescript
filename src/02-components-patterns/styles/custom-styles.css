@@ -1,9 +1,9 @@
 .bg-dark{
-    background-color: rgb(58, 53, 53);
+    background-color: rgb(241, 234, 234);
    
 }
 .text-white{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
@@ -15,6 +15,12 @@
 
 .custom-boton button ,.custom-boton div{
  
- color: white;
+ color: rgb(17, 16, 16);
  border-color: white;
+}
+
+.shopping-cart{
+    position: fixed;
+    top: 0;
+    right: 10px;
 }
