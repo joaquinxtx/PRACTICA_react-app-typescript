@@ -1,0 +1,60 @@
+[
+    {
+        "type":"input",
+        "name":"firstName",
+        "placeholder":"Nombre",
+        "label":"Nombre",
+        "value":"",
+        "validations":[
+            {
+                "type":"required"
+            },
+            {
+                "type":"minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type":"input",
+        "name":"lastsName",
+        "placeholder":"Apellido",
+        "label":"Apellido",
+        "value":"",
+        "validations":[
+            {
+                "type":"required"
+            }
+        ]
+    },
+    {
+        "type":"email",
+        "name":"email",
+        "placeholder":"correo@gmail.com",
+        "label":"Email",
+        "value":"",
+        "validations":[
+            {
+                "type":"required"
+            },{
+                "type":"email"
+            }
+        ]
+    },
+    {
+        "type":"select",
+        "name":"favoriteGame",
+        "label":"Juegos",
+        "value":"",
+        "option":[{
+            "id":1,
+           "label":"Super Mario"
+        },{
+            "id":2,
+           "label":"DBZ bkt"
+        },{
+            "id":3,
+           "label":"Red dead"
+        }]
+    }
+]
